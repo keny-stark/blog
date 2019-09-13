@@ -1,0 +1,12 @@
+{% extends 'ready_view.html' %}
+
+{% block title %}Edit list{% endblock %}
+{% block menu %}
+    <li><a href="{% url 'article' articles.pk %}" class="action-btn">View</a></li>
+{% endblock %}
+{% block content %}
+    <h1>Update List</h1>
+    <form method="POST" action="{% url "edit" articles.pk %}" class="for_form">
+        {% include 'partial/article_form.html' with button_text="edit" %}
+    </form>
+{% endblock %}

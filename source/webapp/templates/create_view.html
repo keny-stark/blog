@@ -1,0 +1,8 @@
+{% extends "ready_view.html" %}
+{% block title %}New list{% endblock %}
+{% block content %}
+    <h1>Create Article</h1>
+    <form method="POST" action="{% url "article_create_view" %}" class="for_form">
+        {% include 'partial/article_form.html' with button_text='Create' %}
+    </form>
+{% endblock %}

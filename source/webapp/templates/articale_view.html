@@ -1,0 +1,11 @@
+{% extends 'ready_view.html' %}
+{% block title %}List{% endblock %}
+{% block menu %}
+    <li><a href="{% url 'edit' article.pk %}" class="action-btn">Edit</a></li>
+    <li><a href="{% url 'delete' article.pk %}" class="action-btn">Delete</a></li>
+{% endblock %}
+{% block content %}
+    <h1>Description: {{ article.description }}</h1>
+    <p class="for_text">Text: {{ article.text }}</p>
+    <p>Status: <b>{{ article.status }}</b>, Date: <b>{{ article.created_at }}</b></p>
+{% endblock %}

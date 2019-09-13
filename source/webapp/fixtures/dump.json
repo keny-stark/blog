@@ -1,0 +1,82 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 1,
+  "fields": {
+    "description": "Drink vodka kak alkash",
+    "status": "In progress",
+    "text": "ebat`\r\nkak\r\nya\r\nzaebalsia",
+    "created_at": "2020-01-01"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 33,
+  "fields": {
+    "description": "test 1.2.0",
+    "status": "New",
+    "text": "bla bla",
+    "created_at": "2019-09-04"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 34,
+  "fields": {
+    "description": "test 1.2.5",
+    "status": "In progress",
+    "text": "bla bla bla",
+    "created_at": "2019-09-30"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 35,
+  "fields": {
+    "description": "test 1.2.0.3.3.6",
+    "status": "New",
+    "text": "bla bla bla\r\nblya",
+    "created_at": null
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 36,
+  "fields": {
+    "description": "test 1.2.0",
+    "status": "New",
+    "text": "ckjbhbj",
+    "created_at": null
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 37,
+  "fields": {
+    "description": "test 1.2.0.3",
+    "status": "In progress",
+    "text": "sdfbsdb\r\nsgbsgb\r\nsdgbsd\r\nstbg\r\nsdgbd\r\nsdgb\r\n",
+    "created_at": null
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 38,
+  "fields": {
+    "description": "banana 3",
+    "status": "New",
+    "text": "ya kapec kak \r\nzaebalsya",
+    "created_at": "2019-09-11"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 39,
+  "fields": {
+    "description": "test 1.2.0.4",
+    "status": "New",
+    "text": "",
+    "created_at": null
+  }
+}
+]
