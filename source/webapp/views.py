@@ -57,14 +57,12 @@ def edit_view(request, pk):
             return render(request, 'edit.html', context={
                 'articles': articles, 'form': form})
         elif request.method == "POST":
-            print(articles.created_at)
             form = ArticleForm(data=request.POST)
             if form.is_valid():
                 articles.description = form.cleaned_data['description']
                 articles.status = form.cleaned_data['status']
                 articles.text = form.cleaned_data['text']
                 articles.created_at = form.cleaned_data['created_at']
-                print(articles.created_at)
                 articles.save()
                 return redirect('article', pk=articles.pk)
             else:
